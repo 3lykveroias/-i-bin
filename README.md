@@ -11,10 +11,8 @@
 # Εξοπλισμός
 Ο εξοπλισμός που σκοπεύουμε να χρησιμοποιήσουμε είναι
 
-1 μικροελεγκτής Nano V3.0 ATmega328P CH340G 5V (OEM) 2,40
-
-1 μικροελεγκτής Wireless module CP2102 NodeMcu V2 (OEM based ESP8266) 2,10
-
+1 μικροελεγκτής Nano V3.0 ATmega328P CH340G 5V (OEM) 2,40  
+1 μικροελεγκτής Wireless module CP2102 NodeMcu V2 (OEM based ESP8266) 2,10  
 2 αισθητήρες απόστασης HC-SR04 Ultrasonic Module Distance for Arduino 2X0,90
 1 αισθητήρας καπνού MQ-2 Smoke Gas Butane Hydrogen Gas Sensor Module For Arduino 0,90
 1 πλακέτα MB-102 Solderless Breadboard w/ 830 Tie Points 1,80
