@@ -10,3 +10,21 @@
 
 # Εξοπλισμός
 Ο εξοπλισμός που σκοπεύουμε να χρησιμοποιήσουμε είναι
+1 μικροελεγκτής Nano V3.0 ATmega328P CH340G 5V (OEM) 2,40
+1 μικροελεγκτής Wireless module CP2102 NodeMcu V2 (OEM based ESP8266) 2,10
+2 αισθητήρες απόστασης HC-SR04 Ultrasonic Module Distance for Arduino 2X0,90
+1 αισθητήρας καπνού MQ-2 Smoke Gas Butane Hydrogen Gas Sensor Module For Arduino 0,90
+1 πλακέτα MB-102 Solderless Breadboard w/ 830 Tie Points 1,80
+1 Passive Buzzer Module for Arduino 1,00
+4 ηλιακά πάνελ 112X84mm 6V 1.1W 200mA Solar Power Panel Poly Cell 4X2,00
+2 κυκλώματα φόρτισης 5V-1A Lithium Battery Charging Board with Micro USB(TP4056) 2X0,50
+1 σέρβο κινητήρας SG90 TowerPro Micro Servo Motor for Arduino 1,80
+2 θήκες μπαταρίας 18650 Battery holder without DC connector 2X0,70
+2 μπαταρίες 18650 3,6-3,7V 10A 2X4,00
+2 μετατροπείς τάσης DC-DC Step-Down & Step-Up Converter 1.8V-5V to 3.3V 2X0,50
+2 μετατροπείς τάσης DC-DC Step-Up Power Module Voltage Boost Converter 0.9-5V To 5V 2X0,50
+1 F3 5MM Superbright LED (Yellow Color) 0,10
+1 F3 5MM Superbright LED (White Color) 0,10
+1 F3 5MM Superbright LED (Blue Color) 0,10
+1 F3 5MM Superbright LED (Green Color) 0,10
+1 F3 5MM Superbright LED (Red Color) 0,10
