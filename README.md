@@ -1,31 +1,56 @@
-# (i)bin
+# (i)bin - Smart Waste Management System :recycle:
 
-Έργο για τον 2ο Πανελλήνιο Διαγωνισμό Ανοιχτών Τεχνολογιών στην Εκπαίδευση 2019-2020
+## Disclaimer :page_facing_up:
+This project was developed as part of the 2nd Panhellenic Open Technologies Competition in Education for the school year 2019-2020. The project addresses the issue of waste management and aims to provide a solution to the challenges posed by waste accumulation in urban areas.
 
-Στις μέρες μας, ένα από τα σημαντικότερα προβλήματα που απασχολεί την πλειονότητα των κατοίκων των μεγαλουπόλεων, είναι η συσσώρευση των σκουπιδιών έξω από τους κάδους επειδή καθυστερεί η έγκαιρη αποκομιδή τους από το απορριμματοφόρο. Η παρούσα κατάσταση παρουσιάζει πολλά αρνητικά, με το πρόβλημα να εντείνεται περισσότερο τους καλοκαιρινούς μήνες, όταν οι θερμοκρασίες είναι υψηλές και ευνοείται η αποσύνθεση των απορριμμάτων. Απότοκο αυτού είναι η έκλυση και διαρροή CO2 και CH4 στην ατμόσφαιρα, αέρια τα οποία είναι εξαιρετικά επιβλαβή για την υγεία των ανθρώπων αλλά και για το περιβάλλον, μιας και συμβάλλει στην επίταση του φωτοχημικού νέφους. Επιπρόσθετα, η συσσώρευση σκουπιδιών έξω από τους κάδους πέραν του απωθητικού αισθητικού αποτελέσματος που διαμορφώνει, δημιουργεί και προβλήματα υγιεινής, καθώς σύνηθες είναι το φαινόμενο εμφάνισης τρωκτικών που είναι φορείς μικροβίων και ασθενειών.
+## Disclaimer in Greek :page_facing_up:
+Το παρόν έργο αναπτύχθηκε στο πλαίσιο του 2ου Πανελλήνιου Διαγωνισμού Ανοιχτών Τεχνολογιών στην Εκπαίδευση για το σχολικό έτος 2019-2020. Το έργο αντιμετωπίζει το πρόβλημα της διαχείρισης των απορριμμάτων και έχει ως στόχο την παροχή λύσης στις προκλήσεις που προκύπτουν από τη συσσώρευση απορριμμάτων σε αστικές περιοχές.
 
-Λαμβάνοντας υπ’ όψιν την παρούσα κατάσταση και επειδή η παραγωγή απορριμμάτων παρουσιάζει αυξητικές τάσεις, αποκτά πρωταρχική σημασία η διευθέτηση του προβλήματος των απορριμμάτων. Στο πλαίσιο αυτό, πιστεύουμε ότι κρίνεται επιτακτική η ανάγκη αντικατάστασης των υπαρχόντων κάδων απόθεσης των απορριμμάτων από άλλους σύγχρονους κάδους, το μοντέλο των οποίων αποτελεί αντικείμενο του project μας. Ένας από τους παραγόντες που θα αξιοποιήσουμε, είναι η ύπαρξη δωρεάν ασυρμάτων δικτύων σε πολλές πόλεις της Ελλάδας όπως η πόλη μας η Βέροια, τα Τρίκαλα, η Γλυφάδα κ.α
+## Project Overview :chart_with_upwards_trend:
+The (i)bin project addresses the growing issue of waste accumulation outside bins, exacerbated during the summer due to high temperatures. This situation has negative effects, including the release of CO2 and CH4 gases harmful to health and the environment. The project proposes the replacement of existing waste bins with modern models equipped with advanced technology to provide efficient waste management.
 
-Αναλυτικά, ο συγκεκριμένος κάδος (i)bin, θα μπορεί ηλεκτρονικά και αυτόματα να μετρά και να καταγράφει τη στάθμη των σκουπιδιών στο εσωτερικό του. Αυτό επιτυγχάνεται με την κατάλληλη τοποθέτηση αισθητήρα απόστασης στο εσωτερικό του κάδου και συγκεκριμένα στο εσωτερικό του καπακιού του, ο οποίος με υπερηχητικούς παλμούς ανιχνεύει συνεχώς τη στάθμη των απορριμμάτων. Η πληροφορία από τον αισθητήρα μεταβιβάζεται μέσω καλωδίων στον μικροελεγκτή Αrduino ο οποίος επεξεργάζεται την πληροφορία (δηλαδή το πόσο γεμάτος είναι ο κάδος) και βάσει του προγράμματος το οποίο ‘’τρέχει’’ στο Arduino μας πληροφορεί μέσω φωτεινών ενδείξεων (με λαμπτήρες LED) διαφορετικού χρώματος για τη στάθμη των σκουπιδιών. Όταν ο κάδος γεμίσει, ο μικροελεγκτής μέσω ενός διαφορετικού κυκλώματος το οποίο έχει πρόσβαση στο Internet , πληροφορεί τους εργαζόμενους του Δήμου ότι πρέπει να αδειάσει. Με αυτόν τον τρόπο, διαχειρίζεται βέλτιστα η αποκομιδή των απορριμμάτων και εξαλείφονται ως ένα βαθμό οι δυσάρεστες καταστάσεις που αναφέρθηκαν παραπάνω. Αξίζει να αναφερθεί ότι ο κάδος (i)bin διαθέτει αυτόνομο σύστημα παραγωγής ενέργειας από την ηλιακή ακτινοβολία με φωτοβολταϊκές κυψέλες και μπαταρία αποθήκευσης της περίσσειας ενέργειας, για την κάλυψη των αναγκών του σε ηλεκτρική ενέργεια. Με αυτόν τον τρόπο, ο κάδος μπορεί να τοποθετείται ακόμη και σε περιοχές όπου η πρόσβαση σε ηλεκτρικό ρεύμα είναι αδύνατη. Η χρήση συστήματος ανίχνευσης θέσης GPS αποσκοπεί στο να καταγράφεται και να αποφεύγεται η μετακίνηση του κάδου που μπορεί να είναι άσκοπη ή επικίνδυνη ενώ το σύστημα ανίχνευσης καπνού με βάση την εκπομπή πιθανά επικίνδυνων αερίων στον κάδο ειδοποιεί ηχητικά και στέλνει σχετικό μήνυμα σε ένα κέντρο απομακρυσμένης βοήθειας. Στον κάδο θα τοποθετηθούν ενδεικτικές λάμπες LED που αντιστοιχούν στον βαθμό πληρότητας και ηχείο τύπου buzzer που ειδοποιει για ενδεχόμενο κίνδυνο από φωτιά ή αναθυμιάσεις για την προστασία των πολιτών. Τέλος ο κάδος διαθέτει καινοτόμο σύστημα αυτόματου κλεισίματος και ανοίγματος με κινητήρα. Έτσι, διευκολύνεται ο εκάστοτε χρήστης, ιδιαίτερα άτομα με κινητικά προβλήματα, ηλικιωμένα ή αδύναμα αλλά και παρατείνεται η διάρκεια ζωής του, καθώς δεν καταπονείται από βίαιους χειρισμούς.
+## Repository Structure :file_folder:
+The repository is organized into the following sections:
+- `Code`: Contains the source code for the (i)bin system, including Arduino code for sensors, LED indicators, and motor control.
+- `TestCode`: Includes test scripts and code used during development and testing.
+- `ConstructionMaterials`: Provides diagrams on the materials used for building the (i)bin prototype.
+- `EducationResources`: Offers educational resources such as documentation and tutorials for understanding and replicating the project.
+- `Photos`: Contains images and photos showcasing the development process, the prototype, and the final system.
 
-# Εξοπλισμός
-Ο εξοπλισμός που σκοπεύουμε να χρησιμοποιήσουμε είναι
+## Equipment :wrench:
 
-1 μικροελεγκτής Nano V3.0 ATmega328P CH340G 5V (OEM)  
-1 μικροελεγκτής Wireless module CP2102 NodeMcu V2 (OEM based ESP8266)  
-2 αισθητήρες απόστασης HC-SR04 Ultrasonic Module Distance  
-1 αισθητήρας καπνού MQ-2 Smoke Gas Butane Hydrogen Gas Sensor Module  
-1 πλακέτα MB-102 Solderless Breadboard w/ 830 Tie Points  
-1 Passive Buzzer Module  
-4 ηλιακά πάνελ 112X84mm 6V 1.1W 200mA Solar Power Panel Poly Cell  
-2 κυκλώματα φόρτισης 5V-1A Lithium Battery Charging Board with Micro USB(TP4056)  
-1 σέρβο κινητήρας SG90 TowerPro Micro Servo Motor  
-2 θήκες μπαταρίας 18650 Battery holder with DC connector  
-2 μπαταρίες 18650 3,6-3,7V 10A  
-2 μετατροπείς τάσης DC-DC Step-Down & Step-Up Converter 1.8V-5V to 3.3V  
-2 μετατροπείς τάσης DC-DC Step-Up Power Module Voltage Boost Converter 0.9-5V To 5V  
-1 F3 5MM Superbright LED (Yellow Color)  
-1 F3 5MM Superbright LED (White Color)  
-1 F3 5MM Superbright LED (Blue Color)  
-1 F3 5MM Superbright LED (Green Color)  
-1 F3 5MM Superbright LED (Red Color)  
+The (i)bin project utilizes the following equipment:
+
+- Microcontroller Nano V3.0 ATmega328P CH340G 5V (OEM) 
+- Wireless module CP2102 NodeMcu V2 (OEM based ESP8266)
+- Ultrasonic distance sensors HC-SR04
+- Smoke and gas sensor MQ-2
+- Solderless breadboard MB-102 with 830 tie points
+- Passive buzzer module
+- Solar panels 112X84mm 6V 1.1W 200mA
+- Lithium battery charging boards with Micro USB (TP4056)
+- Servo motor SG90 TowerPro Micro Servo Motor
+- Battery holders for 18650 batteries
+- Voltage converters DC-DC Step-Down & Step-Up Converter
+- Superbright LEDs of various colors
+
+## Recognition/Accolades :star:
+Recognized by the Organizing Committee of the Panhellenic Open Technologies Competition (https://openedtech.ellak.gr/) in the 2nd Panhellenic Open Technologies Competition, held during the school year 2019-2020. Our team secured the first position out of 243 teams in its category!
+
+## Team Members :busts_in_silhouette:
+
+Meet the dedicated team members behind the (i)bin project:
+
+- **Fotis Vourliotis**
+- **Antonis Giannkovitis**
+- **Maria Giangoula**
+- **Paschalis Doupiakiotis**
+- **Pavlos Kontogloudou**
+- **Lefteris Kyventidis**
+- **Olyanna Kyventidou**
+- **Despoina Pavlidou**
+- **Kostas Chatzarithis**
+
+## License :scroll:
+This project is licensed under the GPL-3.0 License.
+
